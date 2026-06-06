@@ -68,7 +68,7 @@ Open http://localhost:3000
 | ⁠ NEXT_PUBLIC_API_URL ⁠ | Backend API URL |
 
 ## Project Structure
-[2026-06-06, 16:35:03] Akka 👯: src/
+src/
 ├── app/
 │   ├── onboarding/     # Welcome screen
 │   ├── login/          # Login screen
@@ -79,7 +79,9 @@ Open http://localhost:3000
 └── lib/
 ├── api.ts          # Axios instance
 └── auth.ts         # Auth service
-[2026-06-06, 16:35:11] Akka 👯: ## API Integration
+
+
+## API Integration
 •⁠  ⁠POST /api/auth/register — Create account
 •⁠  ⁠POST /api/auth/login — Login, returns JWT token
 •⁠  ⁠GET /api/auth/health — Health check
